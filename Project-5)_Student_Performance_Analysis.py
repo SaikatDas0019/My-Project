@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 
 # ==================================================
-# Lode Data from Excel file
+# Load Data from Excel file
 # ==================================================
 print("="*50)
 print("Loading Data...")
@@ -138,7 +138,7 @@ print("\n" + "=" * 60)
 print("📊 Creating Visualizations...")
 print("=" * 60)
 
-# এই লাইন ঠিক করুন
+
 fig, axes = plt.subplots(2, 3, figsize=(18, 10))  # ✅ subplots
 fig.suptitle("Student Performance Analysis - Comprehensive Overview", fontsize=16, fontweight='bold')  # ✅ suptitle
 

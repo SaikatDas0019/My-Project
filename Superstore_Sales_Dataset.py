@@ -22,7 +22,7 @@ print("=" * 60)
 
 try:
     # Read Excel file and convert to DataFrame
-    data = pd.read_excel(r"C:\Users\nd460\OneDrive\Desktop\PYTJON_FILE\Supershop Sales Data.xlsx")
+    data = pd.read_excel(r"C:\Users\nd460\OneDrive\Desktop\PYTJON_FILE\Real World Data Analysis\Supershop Sales Data.xlsx")
     df = pd.DataFrame(data)
     print(f"✅ Data loaded successfully!")
     print(f"📊 Total rows: {len(df)}, Total columns: {len(df.columns)}")
